@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/welcome_bac"
+            android:layout_width="185dp"
+            android:layout_height="83dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="63dp"
+            android:gravity="top"
+            android:text="@string/welcome_bac"
+            android:textSize="36dp"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="182dp"
+
+            >
+
+            <EditText
+                android:id="@+id/user"
+                android:layout_width="280dp"
+                android:layout_height="55dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="36dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="    Name" />
+
+            <RelativeLayout
+                android:id="@+id/img_user"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="52dp"
+                android:background="@drawable/ic_launcher_foreground"
+                android:clipToOutline="true" />
+
+            <RelativeLayout
+                android:id="@+id/img_lock"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="139dp"
+                android:background="@drawable/ic_launcher_background"
+                android:clipToOutline="true" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="280dp"
+                android:layout_height="55dp"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="122dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="243dp"
+                android:layout_marginTop="186dp"
+                android:gravity="center_horizontal|top"
+                android:text="@string/forgot_pass"
+                android:textSize="10sp"
+                android:textColor="@color/red"/>
+<!--          android:textAppearance="@style/forgot_pass" />-->
+        <ImageButton
+            android:background="@drawable/rectangle_bg_deep_orange_500_radius_25_5"
+            android:id="@+id/btnArrowright"
+            android:layout_height="51dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="250dp"
+            android:layout_width="51dp"
+            android:paddingHorizontal="18dp"
+            android:paddingVertical="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_arrowright" tools:ignore="ContentDescription"/>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
